@@ -23,6 +23,26 @@
                     car.MethodeInCar();
                     break;
 
+                    case 3:
+
+                    Polymorphism polymorphism = new Polymorphism();
+                    Console.WriteLine("Enter 2 Digit for Addition");
+                    int digitOne = Convert.ToInt32(Console.ReadLine());
+                    int digitTwo = Convert.ToInt32(Console.ReadLine());
+                    int resultOne = polymorphism.Add(digitOne, digitTwo);
+
+                    Polymorphism circle = new Circle();
+                    Console.WriteLine("Area :" + circle.Area());
+
+                    Polymorphism square = new Square();
+                    Console.WriteLine("Area :" + square.Area());
+
+                    Console.WriteLine("Enter 3rd Digit for addition");
+                    int digitThree = Convert.ToInt32(Console.ReadLine());
+                    int resultTwo = polymorphism.Add(digitTwo, digitOne, digitThree);
+                    Console.WriteLine("Result for Second Method" + resultTwo);
+                    break;
+
             }
 
 
