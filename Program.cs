@@ -43,6 +43,16 @@
                     Console.WriteLine("Result for Second Method" + resultTwo);
                     break;
 
+                    case 4:
+
+                    Encapsulation encapsulation = new Encapsulation();
+                    Console.WriteLine("Enter Employee Name");
+                    encapsulation.name = Console.ReadLine();
+                    encapsulation.SetSalary(8000);
+                    Console.WriteLine("Salary of" + encapsulation.name + " is " + encapsulation.GetSalary());
+                    break;
+
+
             }
 
 
