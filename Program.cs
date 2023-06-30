@@ -59,6 +59,19 @@
                     break;
 
 
+                case 6:
+                    Variables marksobj1 = new Variables();
+                    marksobj1.mathMarks = 50;
+                    marksobj1.engMarks = 90;
+
+                    Variables marksobj2 = new Variables();
+                    marksobj2.mathMarks = 88;
+                    marksobj2.engMarks = 75;
+
+                    Variables.salary = 50000;
+                    break;
+
+
             }
 
 
