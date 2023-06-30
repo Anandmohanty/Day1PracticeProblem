@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Practice Problem ");
-            Console.WriteLine("Select option For Respective Concepts \n 1.ObjectAndClass \n 2.Inheritance  \n 3.Polymorphism \n 4.Encapsulation \n 5.Abstaction \n 6.Variable \n 7. Type of Method \n 8. Value and Referance Type \n 9.Type of Inheritance");
+            Console.WriteLine("Select option For Respective Concepts \n 1.ObjectAndClass \n 2.Inheritance  \n 3.Polymorphism \n 4.Encapsulation \n 5.Abstraction \n 6.Variable \n 7. Type of Method \n 8. Value and Referance Type \n 9.Type of Inheritance");
             int result = Convert.ToInt32(Console.ReadLine());
             switch (result)
             {
@@ -50,6 +50,12 @@
                     encapsulation.name = Console.ReadLine();
                     encapsulation.SetSalary(8000);
                     Console.WriteLine("Salary of" + encapsulation.name + " is " + encapsulation.GetSalary());
+                    break;
+
+                case 5:
+                    DetailsInfo detailsInfo = new DetailsInfo();
+                    detailsInfo.NonAbstractMethode();
+                    detailsInfo.Salary();
                     break;
 
 
