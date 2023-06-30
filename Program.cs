@@ -71,6 +71,13 @@
                     Variables.salary = 50000;
                     break;
 
+                case 7:
+                    DiriderivedClass diriderivedClass = new DiriderivedClass();
+                    diriderivedClass.Salary();
+                    TypeOfMethods.StaticMethod();
+                    break;
+
+
 
             }
 
