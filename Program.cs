@@ -82,8 +82,25 @@
                     valueAndReferenceType.ShowValueAndReferanceType();
                     break;
 
+                case 9:
+                    DerivedClass derivedClass = new DerivedClass();
+                    derivedClass.TestMethodInDeriveClass();//Example of Single Inheritance 
+
+                    C classC = new C();
+                    classC.MessageInClassC();// Example of Hierarchical inheritance 
+
+                    Manager manager = new Manager();//Example of Multilevel inheritance
+                    manager.ManagerDetails();
+                    break;
+
+                default:
+                    Console.WriteLine("Please Enter Right Option in between 1 to 9");
+                    break;
+
+
 
             }
+
 
 
         }
